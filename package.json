@@ -1,0 +1,31 @@
+{
+  "name": "gulp-svg-to-react",
+  "version": "1.0.0",
+  "description": "svg to react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marvin1023/gulp-svg-to-react.git"
+  },
+  "keywords": [
+    "svg",
+    "react",
+    "component",
+    "icons"
+  ],
+  "author": "marvin1023",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvin1023/gulp-svg-to-react/issues"
+  },
+  "homepage": "https://github.com/marvin1023/gulp-svg-to-react#readme",
+  "devDependencies": {
+    "gulp-jsxformat": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.4",
+    "svg-scaler": "^0.1.5"
+  }
+}
