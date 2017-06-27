@@ -1,6 +1,6 @@
 {
   "name": "gulp-svg-to-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "svg to react component",
   "main": "index.js",
   "scripts": {
