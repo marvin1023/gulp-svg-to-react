@@ -22,7 +22,7 @@
     "url": "https://github.com/marvin1023/gulp-svg-to-react/issues"
   },
   "homepage": "https://github.com/marvin1023/gulp-svg-to-react#readme",
-  "devDependencies": {
+  "dependencies": {
     "gulp-jsxformat": "^0.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-svgmin": "^1.2.4",
