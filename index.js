@@ -1,8 +1,8 @@
 var gulp = require('gulp');
 // through2 是一个对 node 的 transform streams 简单封装
 var through = require('through2');
-var gutil = require('gulp-util');
-var PluginError = gutil.PluginError;
+// var gutil = require('gulp-util');
+// var PluginError = gutil.PluginError;
 
 // 常量
 const PLUGIN_NAME = 'gulp-svg-to-react';
@@ -25,16 +25,17 @@ function toHump (str, first) {
 
 function addPrefix (name) {
     return `import React from 'react';
-    let ${name} = function(props) {
-        return ( 
-            `;
+
+let ${name} = function(props) {
+    return ( 
+        `;
 }
 
 function addSuffix (name) {
-        return `    );
-    }
+    return `    );
+}
 
-    export default ${name};`;
+export default ${name};`;
 }
 
 function gulpSvgToReact() {

@@ -10,7 +10,6 @@ var svgscaler = require('svg-scaler'); // 缩小
 var svgmin = require('gulp-svgmin'); // 压缩
 var rename = require("gulp-rename"); // 重命名
 var gulpSvgToReact = require('gulp-svg-to-react'); // to react component
-var jsxformat = require('gulp-jsxformat'); // format
 
 gulp.task('default', function () {
     return gulp.src('svg/*.svg')
@@ -42,7 +41,6 @@ gulp.task('default', function () {
         .pipe(rename({
             extname: ".jsx"
         }))
-        .pipe(jsxformat())
         .pipe(gulp.dest('./out'));
 });
 ```
